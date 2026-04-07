@@ -1,4 +1,4 @@
-# LLM Gateway
+# AgentNxt Gateway
 
 Unified LLM API proxy that routes requests to multiple AI providers. Built on LiteLLM.
 
@@ -9,7 +9,7 @@ Unified LLM API proxy that routes requests to multiple AI providers. Built on Li
 - OpenAI-compatible API (`/v1/chat/completions`)
 - Route to 100+ LLM providers (OpenAI, Anthropic, Google, Ollama, etc.)
 - Per-model routing, fallbacks, and load balancing
-- Request/response logging to ObserveLLM (Langfuse)
+- Request/response logging to AgentNxt Observe (Langfuse)
 - API key management and rate limiting
 - Cost tracking per model and per user
 
@@ -33,9 +33,9 @@ Models are configured in `/home/ubuntu/platform/gateway/config.yaml`. All platfo
 
 | Service | Connection |
 |---------|-----------|
-| AgentChat | `OPENAI_REVERSE_PROXY=http://gateway:4000/v1` |
-| AgentStudio | `OPENAI_API_BASE=http://gateway:4000/v1` |
-| AgentFlow | Via LLM components |
+| AgentNxt Chat | `OPENAI_REVERSE_PROXY=http://gateway:4000/v1` |
+| AgentNxt Studio | `OPENAI_API_BASE=http://gateway:4000/v1` |
+| AgentNxt Flow | Via LLM components |
 | n8n Bot | `https://gateway.agnxxt.com/v1/chat/completions` |
 
 ## Configuration

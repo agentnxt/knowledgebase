@@ -1,4 +1,4 @@
-# ObserveLLM
+# AgentNxt Observe
 
 LLM observability, tracing, and evaluation platform. Built on Langfuse.
 
@@ -27,14 +27,14 @@ NextAuth with Logto OIDC provider.
 
 ## Integration
 
-All platform services send traces to ObserveLLM:
+All platform services send traces to AgentNxt Observe:
 
 | Service | Integration |
 |---------|-------------|
-| AgentChat | `LANGFUSE_BASE_URL=http://observellm:3000` |
-| AgentStudio | `LANGFUSE_HOST=http://observellm:3000` |
-| AgentFlow | `LANGFUSE_HOST=http://observellm:3000` |
-| LLM Gateway | `LANGFUSE_HOST=http://observellm:3000` |
+| AgentNxt Chat | `LANGFUSE_BASE_URL=http://observellm:3000` |
+| AgentNxt Studio | `LANGFUSE_HOST=http://observellm:3000` |
+| AgentNxt Flow | `LANGFUSE_HOST=http://observellm:3000` |
+| AgentNxt Gateway | `LANGFUSE_HOST=http://observellm:3000` |
 
 ## API Keys
 

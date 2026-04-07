@@ -1,9 +1,9 @@
-# Dify Studio
+# AgentNxt DIY
 
 Prompt-to-agent builder with built-in RAG pipeline and conversation memory. Open-source LLMOps platform.
 
-**URL:** https://studio.agnxxt.com
-**API:** https://studio-api.agnxxt.com
+**URL:** https://diy.agnxxt.com
+**API:** https://diy-api.agnxxt.com
 
 ## Features
 
@@ -28,15 +28,15 @@ Prompt-to-agent builder with built-in RAG pipeline and conversation memory. Open
 Protected by oauth2-proxy → Logto SSO.
 
 - Logto Client ID: `sso-dify`
-- Redirect URI: `https://studio.agnxxt.com/oauth2/callback`
+- Redirect URI: `https://diy.agnxxt.com/oauth2/callback`
 
 ## MCP Integration
 
-Dify is available as an MCP server in AgentChat via the `dify` entry (`@tonlab/dify-mcp-server`).
+Dify is available as an MCP server in AgentNxt Chat via the `dify` entry (`@tonlab/dify-mcp-server`).
 
 ## First Setup
 
-1. Navigate to `https://studio.agnxxt.com`
+1. Navigate to `https://diy.agnxxt.com`
 2. Sign in via Logto
 3. Create your admin account on first login
 

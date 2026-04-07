@@ -1,4 +1,4 @@
-# OpenWebUI
+# AgentNxt WebUI
 
 Local LLM chat interface with model management and RAG support.
 
@@ -7,7 +7,7 @@ Local LLM chat interface with model management and RAG support.
 ## Features
 
 - Chat with local models via Ollama
-- Chat with cloud models via LLM Gateway
+- Chat with cloud models via AgentNxt Gateway
 - Document upload and RAG
 - Model management and switching
 - Conversation history and search
@@ -39,7 +39,7 @@ docker run -d --name openwebui \
   -e OAUTH_PROVIDER_NAME=AgentNXXT \
   -e OPENID_PROVIDER_URL=https://auth.agnxxt.com/oidc/.well-known/openid-configuration \
   -e OAUTH_CLIENT_ID=sso-openwebui \
-  -e OAUTH_CLIENT_SECRET=OpenWebUISSO2026Secret \
+  -e OAUTH_CLIENT_SECRET=AgentNxt WebUISSO2026Secret \
   ghcr.io/open-webui/open-webui:main
 ```
 

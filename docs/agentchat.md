@@ -1,4 +1,4 @@
-# AgentChat
+# AgentNxt Chat
 
 AI chat interface with 28+ MCP tool integrations. Built on LibreChat.
 
@@ -28,7 +28,7 @@ Sign in with your AgentNXXT credentials via Logto SSO.
 
 ## API Access
 
-AgentChat exposes an OpenAI-compatible API at `https://chat.agnxxt.com/api/`.
+AgentNxt Chat exposes an OpenAI-compatible API at `https://chat.agnxxt.com/api/`.
 
 ## Admin
 

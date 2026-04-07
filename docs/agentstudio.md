@@ -1,9 +1,9 @@
-# AgentStudio
+# AgentNxt Studio
 
 Visual AI workflow builder and agent orchestration platform. Built on SimStudio.
 
-**URL:** https://agentstudio.agnxxt.com
-**Realtime:** https://agentstudio-realtime.agnxxt.com
+**URL:** https://studio.agnxxt.com
+**Realtime:** https://studio-realtime.agnxxt.com
 
 ## Features
 
@@ -11,8 +11,8 @@ Visual AI workflow builder and agent orchestration platform. Built on SimStudio.
 - Multi-agent orchestration with parallel execution
 - Built-in copilot for workflow assistance
 - Real-time collaboration via WebSocket
-- LLM tracing via ObserveLLM (Langfuse)
-- Integration with LLM Gateway (LiteLLM)
+- LLM tracing via AgentNxt Observe (Langfuse)
+- Integration with AgentNxt Gateway (LiteLLM)
 
 ## Architecture
 
@@ -33,8 +33,8 @@ Uses Better Auth with Logto OIDC integration.
 
 ## Connected Services
 
-- **LLM Gateway:** `http://gateway:4000/v1` (OpenAI-compatible)
-- **ObserveLLM:** `http://observellm:3000` (Langfuse tracing)
+- **AgentNxt Gateway:** `http://gateway:4000/v1` (OpenAI-compatible)
+- **AgentNxt Observe:** `http://observellm:3000` (Langfuse tracing)
 - **SearXNG:** `http://searxng:8080` (web search tool)
 - **Qdrant:** `http://qdrant:6333` (vector store)
 - **Skyvern:** `http://skyvern:8000` (browser automation)

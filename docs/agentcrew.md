@@ -1,4 +1,4 @@
-# AgentCrew
+# AgentNxt Crew
 
 Multi-agent orchestration framework for building teams of AI agents. Built on CrewAI with Streamlit UI.
 
@@ -25,7 +25,7 @@ Streamlit built-in auth. No SSO integration (Streamlit limitation).
 
 ## MCP Integration
 
-AgentCrew is available as an MCP server in AgentChat. A standalone CrewAI MCP server runs at `crewai-mcp:8080` with two pre-configured agents:
+AgentNxt Crew is available as an MCP server in AgentNxt Chat. A standalone CrewAI MCP server runs at `crewai-mcp:8080` with two pre-configured agents:
 
 - **Research Analyst** — finds and analyzes information
 - **Content Writer** — creates content from research

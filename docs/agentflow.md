@@ -1,4 +1,4 @@
-# AgentFlow
+# AgentNxt Flow
 
 Low-code AI pipeline designer for building RAG, multi-agent, and tool-augmented workflows. Built on Langflow.
 
@@ -9,7 +9,7 @@ Low-code AI pipeline designer for building RAG, multi-agent, and tool-augmented 
 - Visual flow builder with drag-and-drop components
 - Pre-built components for LLMs, vector stores, embeddings, tools
 - Export flows as Python code or API endpoints
-- Multi-model support via LLM Gateway
+- Multi-model support via AgentNxt Gateway
 - RAG pipeline builder with document loaders and vector stores
 - MCP server support for external tool integration
 
@@ -27,7 +27,7 @@ Low-code AI pipeline designer for building RAG, multi-agent, and tool-augmented 
 
 ## API
 
-AgentFlow exposes a REST API for programmatic flow execution:
+AgentNxt Flow exposes a REST API for programmatic flow execution:
 
 ```bash
 curl -X POST "https://agentflow.agnxxt.com/api/v1/run/<flow_id>" \
@@ -37,7 +37,7 @@ curl -X POST "https://agentflow.agnxxt.com/api/v1/run/<flow_id>" \
 
 ## MCP Integration
 
-AgentFlow is available as an MCP server in AgentChat via the `langflow` MCP entry, allowing agents to execute flows programmatically.
+AgentNxt Flow is available as an MCP server in AgentNxt Chat via the `langflow` MCP entry, allowing agents to execute flows programmatically.
 
 ## Source
 

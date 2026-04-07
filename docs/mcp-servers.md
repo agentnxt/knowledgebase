@@ -1,6 +1,6 @@
 # MCP Servers
 
-AgentChat includes the following Model Context Protocol servers, available as tools when creating agents.
+AgentNxt Chat includes the following Model Context Protocol servers, available as tools when creating agents.
 
 ## Official Anthropic Reference Servers
 
@@ -54,8 +54,8 @@ Built by AgentNXXT, source at [agentnxt/mcpservers](https://github.com/agentnxt/
 
 | Server | Connection | Tools |
 |--------|-----------|-------|
-| **simstudio** | `http://agentstudio:3000` | AgentStudio workflow execution |
-| **langflow** | `http://agentflow:7860` | AgentFlow pipeline execution |
+| **simstudio** | `http://agentstudio:3000` | AgentNxt Studio workflow execution |
+| **langflow** | `http://agentflow:7860` | AgentNxt Flow pipeline execution |
 
 ## Configuration
 

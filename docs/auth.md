@@ -18,11 +18,11 @@ SSO and identity management for the AgentNXXT platform.
 
 | Service | Method | Client ID |
 |---------|--------|-----------|
-| OpenWebUI | Native OIDC | `sso-openwebui` |
-| Langfuse/ObserveLLM | NextAuth + Logto | `sso-langfuse` |
+| AgentNxt WebUI | Native OIDC | `sso-openwebui` |
+| Langfuse/AgentNxt Observe | NextAuth + Logto | `sso-langfuse` |
 | Dify/Studio | oauth2-proxy | `sso-dify` |
-| AgentKube | Caddy forward_auth | `sso-agentkube` |
-| AgentStudio | Better Auth + Logto | `kakuwqj69teoec1vbetdb` |
+| AgentNxt Kube | Caddy forward_auth | `sso-agentkube` |
+| AgentNxt Studio | Better Auth + Logto | `kakuwqj69teoec1vbetdb` |
 
 ## Admin
 

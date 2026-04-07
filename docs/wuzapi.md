@@ -1,4 +1,4 @@
-# WuzAPI
+# WhatNxt
 
 WhatsApp REST API service using the Whatsmeow library. Communicates directly with WhatsApp WebSocket servers.
 
@@ -23,10 +23,10 @@ WhatsApp REST API service using the Whatsmeow library. Communicates directly wit
 
 A WhatsApp AI chatbot is configured using n8n:
 
-1. Incoming WhatsApp message → WuzAPI webhook
+1. Incoming WhatsApp message → WhatNxt webhook
 2. Webhook → n8n at `https://n8n-bot.agnxxt.com/webhook/whatsapp-bot`
-3. n8n → LLM Gateway (`gateway.agnxxt.com`) → GPT-4o
-4. LLM response → WuzAPI → WhatsApp reply
+3. n8n → AgentNxt Gateway (`gateway.agnxxt.com`) → GPT-4o
+4. LLM response → WhatNxt → WhatsApp reply
 
 **n8n Workflow:** WhatsApp AI Chatbot (ID: `imHA91fZTp39zBvC`)
 
@@ -39,7 +39,7 @@ A WhatsApp AI chatbot is configured using n8n:
 
 ## MCP Server
 
-The WuzAPI MCP server exposes 35 WhatsApp tools in AgentChat. Source: [agentnxt/mcpservers/wuzapi-mcp-server](https://github.com/agentnxt/mcpservers)
+The WhatNxt MCP server exposes 35 WhatsApp tools in AgentNxt Chat. Source: [agentnxt/mcpservers/wuzapi-mcp-server](https://github.com/agentnxt/mcpservers)
 
 ## API Endpoints
 

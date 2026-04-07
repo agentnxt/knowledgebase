@@ -1,4 +1,4 @@
-# AgentKube
+# AgentNxt Kube
 
 AI agent control plane for managing, monitoring, and orchestrating agents at scale. Built on AgentField.
 

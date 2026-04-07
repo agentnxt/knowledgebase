@@ -18,15 +18,15 @@ Workflow automation platform for building event-driven integrations and chatbots
 
 **ID:** `imHA91fZTp39zBvC`
 
-Flow: WhatsApp message → WuzAPI webhook → n8n → LLM Gateway (GPT-4o) → WuzAPI reply
+Flow: WhatsApp message → WhatNxt webhook → n8n → AgentNxt Gateway (GPT-4o) → WhatNxt reply
 
 | Node | Purpose |
 |------|---------|
-| WhatsApp Webhook | Receives POST from WuzAPI at `/webhook/whatsapp-bot` |
-| Extract Message | Parses sender phone and message text from WuzAPI payload |
+| WhatsApp Webhook | Receives POST from WhatNxt at `/webhook/whatsapp-bot` |
+| Extract Message | Parses sender phone and message text from WhatNxt payload |
 | Filter Valid Messages | Skips non-text messages and self-messages |
 | Call LLM | Sends message to `gateway.agnxxt.com` → GPT-4o |
-| Send WhatsApp Reply | Posts LLM response back via WuzAPI |
+| Send WhatsApp Reply | Posts LLM response back via WhatNxt |
 
 ## Authentication
 
@@ -49,7 +49,7 @@ docker run -d --name n8n-bot \
 
 ## MCP Integration
 
-Available as an MCP server in AgentChat via the `n8n` entry (`@leonardsellem/n8n-mcp-server`).
+Available as an MCP server in AgentNxt Chat via the `n8n` entry (`@leonardsellem/n8n-mcp-server`).
 
 ## Source
 

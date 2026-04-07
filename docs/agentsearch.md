@@ -1,4 +1,4 @@
-# AgentSearch
+# AgentNxt Search
 
 Privacy-respecting meta search engine. Built on SearXNG.
 
@@ -14,7 +14,7 @@ Privacy-respecting meta search engine. Built on SearXNG.
 ## Configuration
 
 - Settings: `/home/ubuntu/platform/searxng/settings.yml`
-- Instance name: `AgentSearch`
+- Instance name: `AgentNxt Search`
 
 ## API Usage
 

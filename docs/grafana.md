@@ -22,7 +22,7 @@ Unified monitoring dashboards for the AgentNXXT platform.
 
 ## MCP Integration
 
-Available as an MCP server in AgentChat via the `grafana` entry (`mcp-grafana` uvx). Requires `GRAFANA_SERVICE_ACCOUNT_TOKEN` env var.
+Available as an MCP server in AgentNxt Chat via the `grafana` entry (`mcp-grafana` uvx). Requires `GRAFANA_SERVICE_ACCOUNT_TOKEN` env var.
 
 ## Source
 
